@@ -1,10 +1,11 @@
 from goog import goog
 
-"""Function to obtain query
-To be further improved with more google hacking techniques
-and GUI form
-"""
+
 def obtain_query():
+    """Receive and format user provided query
+    To be further improved with more google hacking techniques
+    and GUI form
+    """
     try:
         name = input('Input your full name\n')
         country = input('\nInput your country\n')

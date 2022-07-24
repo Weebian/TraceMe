@@ -12,6 +12,8 @@ class goog:
         return self.results
     
     def new_query(self, query):
+        """Scrapes google from the provided query"""
+
         conn = http.client.HTTPSConnection('google-search3.p.rapidapi.com')
         headers = {
             'X-User-Agent': 'desktop',
